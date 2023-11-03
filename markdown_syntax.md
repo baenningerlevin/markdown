@@ -11,8 +11,6 @@
     - [Dicker Text](#dicker-text)
     - [Kursiver Text](#kursiver-text)
     - [Durchgestrichener Text](#durchgestrichener-text)
-    - [Subscript](#subscript)
-    - [Superscript](#superscript)
   - [Code](#code)
     - [Codeblöcke](#codeblöcke)
     - [Keywords](#keywords)
@@ -21,6 +19,7 @@
     - [Pipes untereinander](#pipes-untereinander)
     - [Pipes nicht untereinander](#pipes-nicht-untereinander)
   - [Links](#links)
+    - [Weblinks](#weblinks)
     - [Relative Links](#relative-links)
   - [Bilder](#bilder)
   - [Kommentare](#kommentare)
@@ -123,26 +122,6 @@ Um ~~durchgestrichenen~~ Text zu erstellen benutzt man `~~`
 ~~Durchgestrichener Text~~
 ```
 
----
-
-### Subscript
-
-Um <sub>supscript</sub> Text zu erstellen benutzt man das `<sub>` Tag.
-
-```md
-<sub>subscript</sub>
-```
-
----
-
-### Superscript
-
-Um <sup>superscript</sup> Text zu erstellen benutzt man das `<sup>` Tag.
-
-```md
-<sup>superscript</sup>
-```
-
 ## Code
 
 ### Codeblöcke
@@ -217,27 +196,31 @@ Die Pipes müssen nicht zwingend untereinander stehen:
 
 ## Links
 
+### Weblinks
+
 In Markdown kann man Links erstellen: [GitHub](htttps://www.github.com/)
 
 ```md
 [Github](https://www.github.com/)
 ```
 
+---
+
 ### Relative Links
 
 Man kann auch Dateien im Repository verlinken mit relativen Links.
 
-[Markdown Dokumentation](./markdown.md)
+Das ist der Link für [Markdown Dokumentation](markdown.md)
 
 ```md
-[Markdown Dokumenation](./markdown.md)
+[Markdown Dokumenation](markdown.md)
 ```
 
 ## Bilder
 
 Eine weitere Funktion von Markdown ist das Einfügen von Bildern.
 
-![Bild von Octocat](https://myoctocat.com/assets/images/base-octocat.svg)
+![MarkDown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/312px-Markdown-mark.svg.png?20190322184628)
 
 ## Kommentare
 
