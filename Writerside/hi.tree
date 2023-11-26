@@ -4,8 +4,9 @@
 
 <instance-profile id="hi"
                  name="Markdown"
-                 start-page="Default-topic.md">
+                 start-page="Ueberblick.topic">
 
+    <toc-element topic="Ueberblick.topic"/>
     <toc-element topic="Markdown.md"/>
     <toc-element topic="Markdown-Syntax.md"/>
 </instance-profile>
